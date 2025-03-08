@@ -1,0 +1,10 @@
+function dataRate = computeDataRate_t(t,sc,beamSelection,freqChan,beamBS,beamUE,numRFRx,SNR_linear,numPolAng)
+[~,~,numSC,T] = size(freqChan);
+dataRateTemp = zeros(1,1);
+    f = beamBS(:,beamSelection(:,1).');
+    f = repelem(f,numPolAng,1);
+    w = beamUE(:,beamSelection(:,2).');
+    w = repelem(w,numPolAng,1);
+        H = freqChan(:,:,sc,t);
+        dataRateTemp(1,1) = abs(log2(1+SNR_linear(t)/numRFRx*abs(10*log10(w'*H*f*f'*H'*w))));
+dataRate = mean(dataRateTemp,1); % averaged over subcarriers
