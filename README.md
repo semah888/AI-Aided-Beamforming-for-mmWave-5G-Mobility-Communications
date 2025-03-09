@@ -4,10 +4,10 @@ This repository contains MATLAB and Python codes designed for AI-aided beamformi
 
 **Repository Structure**
 
-1. 3GPP_Channel_Implementation/: Contains MATLAB implementations for 3GPP channel models used for simulations.
-2. Traditional Beamforming/: Implements conventional beamforming methods using DFT codebooks and exhaustive search.
-3. Computer Vision - based Beam Tracking/: Includes Python-based object detection models (e.g., YOLOv8) for tracking vehicles to aid beam tracking.
-4. ML-driven Beam Prediction/: Contains machine learning models (DNN, KNN, Decision Tree) for predicting optimal beams based on system parameters.
+1. `3GPP_Channel_Implementation/`: Contains MATLAB implementations for 3GPP channel models used for simulations.
+2. `Traditional Beamforming/`: Implements conventional beamforming methods using DFT codebooks and exhaustive search.
+3. `Computer Vision - based Beam Tracking/`: Includes Python-based object detection models (e.g., YOLOv8) for tracking vehicles to aid beam tracking.
+4. `ML-driven Beam Prediction/`: Contains machine learning models (DNN, KNN, Decision Tree) for predicting optimal beams based on system parameters.
 5. README.md: Documentation file describing the repository contents and functionality.
 
 **Channel Generation and Beamforming Applications**
