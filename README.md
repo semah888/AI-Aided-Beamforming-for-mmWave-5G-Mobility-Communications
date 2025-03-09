@@ -1,3 +1,5 @@
+# AI-Aided Beamforming for mmWave 5G Mobility Communications
+
 **Overview**
 
 This repository contains MATLAB and Python codes designed for AI-aided beamforming in millimeter-wave (mmWave) 5G mobility communications. The implemented applications allow for beam prediction and tracking using machine learning (ML) techniques and traditional exhaustive search approaches.
